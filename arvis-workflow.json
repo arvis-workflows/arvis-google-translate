@@ -6,8 +6,8 @@
   "name": "arvis-google-translate",
   "readme": "Arvis workflow to translate with google tanslate api",
   "defaultIcon": "icon.png",
-  "version": "0.0.1",
-  "webAddress": "https://github.com/xfslove/arvis-google-translate#readme",
+  "version": "0.0.2",
+  "webAddress": "https://github.com/jopemachine/arvis-google-translate#readme",
   "enabled": true,
   "commands": [
     {

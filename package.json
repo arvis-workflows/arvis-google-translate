@@ -1,9 +1,8 @@
 {
   "name": "arvis-google-translate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Arvis workflow to translate with google translate api",
   "license": "MIT",
-  "repository": "xfslove/arvis-google-translate",
   "author": {
     "name": "hanwen.huang",
     "email": "xfslove@gmail.com"

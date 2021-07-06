@@ -7,7 +7,7 @@
 
 ## Installation
 
-To use this workflow you must also install the [arvis-language-configuration](https://github.com/xfslove/arvis-language-configuration) workflow, and configure the language pair. See that [README](https://github.com/xfslove/arvis-language-configuration) for instructions.
+To use this workflow you must also install the [arvis-language-configuration](https://github.com/jopemachine/arvis-language-configuration) workflow, and configure the language pair. See that [README](https://github.com/jopemachine/arvis-language-configuration) for instructions.
 
 * Voice feature not supported yet.
 

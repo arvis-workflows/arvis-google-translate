@@ -1,0 +1,52 @@
+{
+  "name": "arvis-google-translate",
+  "version": "0.0.1",
+  "description": "Arvis workflow to translate with google translate api",
+  "license": "MIT",
+  "repository": "xfslove/arvis-google-translate",
+  "author": {
+    "name": "hanwen.huang",
+    "email": "xfslove@gmail.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup"
+  },
+  "files": [
+    "tts.js",
+    "languages.js",
+    "translate.js",
+    "token.js",
+    "index.js",
+    "icon.png",
+    "tts.png",
+    "arvis-workflow.json"
+  ],
+  "keywords": [
+    "translate",
+    "google-translate",
+    "arvis",
+    "arvis-workflow",
+    "workflow",
+    "arvish"
+  ],
+  "dependencies": {
+    "arvish": ">=0.4.6",
+    "configstore": "^2.0.0",
+    "got": "^6.3.0",
+    "uuid": "^3.3.2",
+    "socks-proxy-agent": "^4.0.2"
+  },
+  "devDependencies": {
+    "puppeteer": "^1.11.0",
+    "codecov": "^3.6.5",
+    "coveralls": "^2.11.11",
+    "nyc": "^7.0.0",
+    "ava": "*",
+    "xo": "*"
+  }
+}

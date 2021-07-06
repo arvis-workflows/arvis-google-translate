@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "category": "Tools",
+  "creator": "hanwen huang",
+  "description": "Arvis workflow to translate with google tanslate api",
+  "name": "arvis-google-translate",
+  "readme": "Arvis workflow to translate with google tanslate api",
+  "defaultIcon": "icon.png",
+  "version": "0.0.1",
+  "webAddress": "https://github.com/xfslove/arvis-google-translate#readme",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "hotkey",
+      "hotkey": "",
+      "actions": [
+        {
+          "modifiers": "normal",
+          "command": "tr",
+          "title": "translate with google",
+          "type": "scriptFilter",
+          "scriptFilter": "node index.js \"{query}\"",
+          "runningSubtext": "Translating...",
+          "withspace": true,
+          "actions": [
+            {
+              "modifiers": "normal",
+              "type": "script",
+              "script": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
